@@ -1,0 +1,41 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Practice</title>
+
+<!-- Css style sheets -->
+<link rel="stylesheet" type="text/css" href="css/first.css">
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js'></script>
+<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<!-- Load Angular Files-->
+
+<script src="js/vendor/angular.js"></script>
+<script src="js/vendor/angular-route.js"></script>
+<script src="js/vendor/angular-resource.js"></script>
+
+<!-- Load Javascript files -->
+<script src="js/app.js"></script>
+
+<!-- Load Firebase -->
+<script type='text/javascript' src='js/firebase/auth-client.js'></script>
+<script src="https://cdn.firebase.com/js/client/1.0.11/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script> <!-- angular fire -->
+
+<!-- Controllers -->
+<script src="js/controllers/authController.js"></script>
+<script src="js/controllers/userController.js"></script>
+
+
+
+</head>
+    <body>
+        <div>
+            <div ng-app="practiceApp">
+                <div ng-view></div>
+            </div>
+        </div>
+    </body>
+</html>
